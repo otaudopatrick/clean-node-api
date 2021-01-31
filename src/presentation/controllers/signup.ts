@@ -1,5 +1,5 @@
 import { HttpRequest, HttpResponse } from '../protocols/https'
-import { MissingParamError } from '../erros/missing-param-error'
+import { MissingParamError } from '../errors/missing-param-error'
 import { badRquest } from '../helpers/http-helpers'
 import { Controller } from '../protocols/controller'
 
